@@ -1,6 +1,6 @@
 <template>
   <div class="login mt-3">
-    <h3>Please Login</h3>
+    <h3>Please Sign in</h3>
     <the-login></the-login>
   </div>
 </template>
