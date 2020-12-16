@@ -49,8 +49,8 @@ export default {
     async signinUser() {
       try {
         let response = await this.$http.post("/api/auth/signin", this.signin);
-        console.log(response);
-        let token = response.data.tokenReturn;
+        console.log(response.data.user);
+        let token = response.data.accessToken;
         let user = response.data.user;
 
         localStorage.setItem("jwt", token);

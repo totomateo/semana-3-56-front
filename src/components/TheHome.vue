@@ -16,7 +16,7 @@
         <label class="col-sm-2">Name</label>
         <div class="col-sm-10 border border-primary rounded-pill">
           <p class="m-0">
-            {{ user.nombre }}
+            {{ user.name }}
           </p>
         </div>
       </div>
