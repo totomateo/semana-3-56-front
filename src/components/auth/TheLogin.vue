@@ -49,7 +49,7 @@ export default {
     async signinUser() {
       try {
         let response = await this.$http.post("/api/auth/signin", this.signin);
-        console.log(response.data);
+        console.log(response);
         let token = response.data.tokenReturn;
         let user = response.data.user;
 
